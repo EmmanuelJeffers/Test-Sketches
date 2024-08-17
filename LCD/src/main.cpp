@@ -7,6 +7,7 @@
 #define   CONTRAST       110
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
+// TODO:FIX ME PLZ
 
 // Creat a set of new characters
 byte smiley[8] = {
