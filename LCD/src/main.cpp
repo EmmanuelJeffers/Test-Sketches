@@ -46,11 +46,11 @@ void setup()
   Serial.begin ( 57600 );
 
   // Switch on the backlight and LCD contrast levels
-  // pinMode(CONTRAST_PIN, OUTPUT);
-  // analogWrite ( CONTRAST_PIN, CONTRAST );
+  pinMode(CONTRAST_PIN, OUTPUT);
+  analogWrite ( CONTRAST_PIN, CONTRAST );
 
-  //lcd.setBacklightPin ( BACKLIGHT_PIN, POSITIVE );
-  //lcd.setBacklight ( HIGH );
+  lcd.setBacklightPin ( BACKLIGHT_PIN, POSITIVE );
+  lcd.setBacklight ( HIGH );
   lcd.backlight();
     
   lcd.begin(16,2);               // initialize the lcd 
