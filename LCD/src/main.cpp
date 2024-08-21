@@ -62,7 +62,7 @@ void setup()
   lcd.home ();                   // go home
   lcd.print("Hello, ARDUINO ");  
   lcd.setCursor ( 0, 1 );        // go to the next line
-  lcd.print (" FORUM - fm   ");      
+  lcd.print (" OUI ");      
 }
 
 void loop()
